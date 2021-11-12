@@ -99,19 +99,19 @@ body{
 .home-text h1{
     font-size: 48px;
     font-weight: 700;
-    color:#001429;
+    color:#2F2C4A;
     margin-top: 80px;
 }
 .home-text h2{
     font-size: 27px;
     font-weight: 700;
-    color:#001429;    ;
+    color:#2F2C4A;    ;
     margin: 0 0 25px;
 }
 .home-text p{
     font-size: 12px;
     line-height: 28px;
-    color: black;
+    color: #2F2C4A;
     margin: 4;
 }
 .home .home-btn{
@@ -385,6 +385,13 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: #2F2C4A;
+}
+.arabic {
+    direction: rtl;
+    font-family: "Amiri","Scheherazade", "Traditional Arabic";
+    font-size: 1.7em;
+    letter-spacing: 1px;
+    line-height: 2em;
 }
 
 /*--Tips Section--*/
