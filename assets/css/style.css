@@ -389,9 +389,6 @@ body{
 .arabic {
     direction: rtl;
     font-family: "Amiri","Scheherazade", "Traditional Arabic";
-    font-size: 1.7em;
-    letter-spacing: 1px;
-    line-height: 2em;
 }
 
 /*--Tips Section--*/
