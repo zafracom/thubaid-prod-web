@@ -716,6 +716,7 @@ body{
         font-size: 12px;
         line-height: 18px;
         margin:0;
+        text-align: center;
     }
     .about-spec-btn .btn-1{
         width: 283px;
