@@ -113,6 +113,7 @@ body{
     line-height: 28px;
     color: #2F2C4A;
     margin: 4;
+    font-weight: bold;
 }
 .home .home-btn{
     margin-top: 40px;
@@ -385,6 +386,11 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: #2F2C4A;
+}
+.describ-text-wrap span{
+    font-size: 24px ;
+    line-height: 48px;
+    text-align: left;
 }
 .arabic {
     direction: rtl;
