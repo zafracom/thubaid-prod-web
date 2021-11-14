@@ -370,7 +370,9 @@ body{
     height: auto;
 }
 .describ .section-img{
-    background-color: #FFFFFF;
+    height: 720px;
+    background-image: url("../img/img-describ.png");
+    background-size: cover;
 }
 .describ .col-lg-8 .col-md-7{
     padding-left: 0px!important;
@@ -611,10 +613,6 @@ body{
         font-size: 10px;
         line-height: 15px;
     }
-    .describ .section-img img{
-        height: 345px;
-        width: 100%;
-    }
     .describ-text-wrap p{
         font-size: 8px;
         line-height: 12px;
@@ -767,9 +765,9 @@ body{
         font-size: 10px;
         line-height: 15px;
     }
-    .describ .section-img img{
+    .describ .section-img{
         height: 345px;
-        width: 100%;
+        background-size: cover;
     }
     .describ-text-wrap p{
         font-size: 10px;
@@ -796,6 +794,7 @@ body{
         height: 35px;
         justify-content: center;
         font-size: 10px;
+        padding: 16px 4px;
     }
     .tips{
         height: auto;
