@@ -616,7 +616,7 @@ body{
     .describ-text-wrap p{
         font-size: 8px;
         line-height: 12px;
-        padding: 60px 0px;
+        padding: 60px 0px;   
     }
     .describ .section-img{
         height: 345px;
@@ -776,6 +776,8 @@ body{
         font-size: 10px;
         line-height: 16px;
         padding: 60px 0px;
+        padding-left: 15px;
+        padding-right: 15px;
         text-align: center;
     }
     .tips .container{
