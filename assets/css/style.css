@@ -618,6 +618,9 @@ body{
         line-height: 12px;
         padding: 60px 0px;
     }
+    .describ .section-img{
+        height: 345px;
+    }
     .tips .container{
         padding: 0px;
 
