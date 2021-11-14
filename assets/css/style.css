@@ -525,9 +525,7 @@ body{
     .home-text p{
         line-height: 18px;
     }
-    .home br{
-        display: none!important;
-    }
+    
 
     .home .home-img{
         margin-top: 60px;
@@ -552,9 +550,6 @@ body{
         margin-top: 40px;
     }
 
-    .about-spec{
-        padding-left: 30px;
-    }
     .about-spec .section-title h2{
         font-size: 24px;
         line-height: 36px;
@@ -680,10 +675,9 @@ body{
     .home-text p{
         line-height: 18px;
     }
-    .home br{
-        display: none!important;
-    }
-
+   .home-text span br{
+       display: none;
+   }
     .home .home-img{
         margin-top: 60px;
     }
@@ -714,9 +708,6 @@ body{
         margin-top: 40px;
     }
 
-    .about-spec{
-        padding-left: 30px;
-    }
     .about-spec .section-title h2{
         font-size: 24px;
         line-height: 36px;
@@ -785,9 +776,10 @@ body{
         width: 100%;
     }
     .describ-text-wrap p{
-        font-size: 8px;
-        line-height: 12px;
+        font-size: 10px;
+        line-height: 18px;
         padding: 60px 0px;
+        text-align: center;
     }
     .tips .container{
         padding: 0px;
