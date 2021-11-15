@@ -390,6 +390,8 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: #2F2C4A;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .describ-text-wrap span{
     font-size: 24px ;
@@ -711,8 +713,8 @@ body{
         text-align: center;
     }
     .about-spec-text p{
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 14px;
+        line-height: 24px;
         margin:0;
         text-align: center;
     }
@@ -765,19 +767,19 @@ body{
         margin-left: auto;
     }
     .answer-text-wrap p{
-        font-size: 10px;
-        line-height: 15px;
+        font-size: 12px;
+        line-height: 18px;
     }
     .describ .section-img{
         height: 345px;
         background-size: cover;
     }
-    .describ-text-wrap p{
-        font-size: 10px;
-        line-height: 16px;
+    .describ-text-wrap{
+        font-size: 13px;
+        line-height: 24px;
         padding: 60px 0px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
         text-align: center;
     }
     .tips .container{
@@ -792,7 +794,7 @@ body{
     }
     .tips-text p{
         text-align: center;
-        font-size: 10px;
+        font-size: 11px;
     }
     .tips-btn .btn{
         width: 200px;
