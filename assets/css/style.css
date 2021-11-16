@@ -504,154 +504,57 @@ body{
   color: #FFFFFF;
   margin: 0 16px;
 }
-
-@media (max-width: 360px) {
-    .navbar > .container{
-        padding: 0 0;
-    }
-    .navbar-brand{
-        margin-left: 0 0;
-    }
-    .navbar-nav{
-        margin-right: 0 0;
-    }
-    .navbar{
-        padding:  0 0;
-    }
-    
+@media screen and (max-width: 990px){
     .home-text h1{
-        font-size: 36px;
+        font-size: 40px;
     }
     .home-text h2{
-        font-size: 20px;
+        font-size: 17px;
     }
-    .home-text p{
-        line-height: 18px;
+    .home-text h2 br{
+        display: none;
     }
-    
-
-    .home .home-img{
-        margin-top: 60px;
+    .home-text span br{
+        display: none;
     }
     .about-2-3 .text-title{
-        font-size: 24px;
-        line-height: 36px;
-    }
-    .about-2-3 .text-caption{
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 34px;
     }
     .about-thuba-img img{
-        width: 227px;
-        height: 243px;
-    }
-    .about-info i{
-        width: 66px;
-        padding: 0;
-    }
-    .about-info{
-        margin-top: 40px;
-    }
-
-    .about-spec .section-title h2{
-        font-size: 24px;
-        line-height: 36px;
-        text-align: center;
-    }
-    .about-spec-text p{
-        font-size: 12px;
-        line-height: 18px;
-        margin:0;
-        text-align: center;
-    }
-    .about-spec-btn .btn-1{
-        width: 283px;
-        height: 47px;
-        margin-top: 30px;
-    }
-    .about-spec-btn .btn-1{
-        font-size: 10px;
-        line-height: 15px;
-    }
-    .about-spec-img img{
-        width: 216px;
-        height: 318px;
-    }
-    
-    .question .section-title h2{
-        font-size: 24px;
-        line-height: 36px;
-        text-align: center;
-        padding-top: 60px;
-        margin:0;
-    }
-    .question .section-title p{
-        font-size: 12px;
-        line-height: 18px;
-        text-align: center;
-        margin:0;
-        padding-bottom: 60px;
-        padding-top: 10px;
-    }
-    .answer-text-wrap .box-answer{
-        width: 332px;
-        height: 77px;
-        padding: 16px 32px;
-    }
-    .answer-text-wrap{
-        left: 0;
-        top: 0;
-        margin: 0;
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-    .question .box{
-        margin: 0;
-        margin-bottom: 20px;
-        width: auto;
-        justify-content: center;
-    }
-    .answer-text-wrap p{
-        font-size: 10px;
-        line-height: 15px;
-    }
-    .describ-text-wrap p{
-        font-size: 8px;
-        line-height: 12px;
-        padding: 60px 0px;   
-    }
-    .describ .section-img{
-        height: 345px;
-    }
-    .tips .container{
-        padding: 0px;
-
-    }
-    .tips .section-title h2{
-        font-size: 18px;
-        line-height: 27px;
-        margin-top: 100px;
-        text-align: center;
-    }
-    .tips-text p{
-        text-align: center;
-        font-size: 10px;
-    }
-    .tips-btn .btn-1{
-        width: 250px;
-        height: 35px;
-        font-size: 10px;
-    }
-    .tips{
+        width: 412px;
         height: auto;
     }
-    .tips-img img{
-        height: 346px;
-        margin: 0;
-        
+    
+    .describ-text-wrap{
+        font-size: 13px;
     }
 }
-@media (max-width: 500px) {
+
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        padding: 0px!important;
+    }
+    .home-text h1{
+        font-size: 30px;
+    }
+    .home-text h2{
+        font-size: 18px;
+    }
+    .home-text h2 br{
+        display: none;
+    }
+    .home-text span br{
+       display: none;
+   }
+   .describ-text-wrap{
+       font-size: 12px;
+       padding-top: 40px;
+   }
+   
+}
+
+@media screen and (max-width: 500px) {
     .navbar > .container{
         padding: 0 0;
     }
@@ -684,6 +587,7 @@ body{
         width: auto;
         height: 300px;
     }
+    
     .about-2-3 .text-title{
         font-size: 24px;
         line-height: 36px;
@@ -820,3 +724,151 @@ body{
         float: none;
     }
 }
+@media screen and (max-width: 350px) {
+    .navbar > .container{
+        padding: 0 0;
+    }
+    .navbar-brand{
+        margin-left: 0 0;
+    }
+    .navbar-nav{
+        margin-right: 0 0;
+    }
+    .navbar{
+        padding:  0 0;
+    }
+    
+    .home-text h1{
+        font-size: 36px;
+    }
+    .home-text h2{
+        font-size: 20px;
+    }
+    .home-text p{
+        line-height: 18px;
+    }
+    
+
+    .home .home-img{
+        margin-top: 60px;
+    }
+    .about-2-3 .text-title{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .about-2-3 .text-caption{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .about-thuba-img img{
+        width: 227px;
+        height: 243px;
+    }
+    .about-info i{
+        width: 66px;
+        padding: 0;
+    }
+    .about-info{
+        margin-top: 40px;
+    }
+
+    .about-spec .section-title h2{
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .about-spec-text p{
+        font-size: 12px;
+        line-height: 18px;
+        margin:0;
+        text-align: center;
+    }
+    .about-spec-btn .btn-1{
+        width: 283px;
+        height: 47px;
+        margin-top: 30px;
+    }
+    .about-spec-btn .btn-1{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .about-spec-img img{
+        width: 216px;
+        height: 318px;
+    }
+    
+    .question .section-title h2{
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        padding-top: 60px;
+        margin:0;
+    }
+    .question .section-title p{
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        margin:0;
+        padding-bottom: 60px;
+        padding-top: 10px;
+    }
+    .answer-text-wrap .box-answer{
+        width: 332px;
+        height: 77px;
+        padding: 16px 32px;
+    }
+    .answer-text-wrap{
+        left: 0;
+        top: 0;
+        margin: 0;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .question .box{
+        margin: 0;
+        margin-bottom: 20px;
+        width: auto;
+        justify-content: center;
+    }
+    .answer-text-wrap p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .describ-text-wrap{
+        font-size: 10px;
+        line-height: 18px;
+        padding: 60px 0px;   
+    }
+    .describ .section-img{
+        height: 345px;
+    }
+    .tips .container{
+        padding: 0px;
+
+    }
+    .tips .section-title h2{
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .tips-text p{
+        text-align: center;
+        font-size: 10px;
+    }
+    .tips-btn .btn-1{
+        width: 250px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .tips{
+        height: auto;
+    }
+    .tips-img img{
+        height: 346px;
+        margin: 0;
+        
+    }
+}
+
+
