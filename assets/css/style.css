@@ -487,7 +487,7 @@ body{
 
 .footer .copyright-text{
     color: #ffffff;
-    margin: 40px 0 0;
+    margin: 40px 0 0 0;
     padding: 15px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     font-size: 16px;
@@ -502,7 +502,7 @@ body{
 .footer .copyright-text .type-2{
   float: right;
   color: #FFFFFF;
-  margin: 0 16px;
+  margin: 0;
 }
 @media screen and (max-width: 990px){
     .home-text h1{
@@ -715,14 +715,19 @@ body{
         margin: 0;
         margin-top: 20px;
     }
-    .footer .copyright-text .type-2{
-        display: none;
-    }
+    
     .footer .copyright-text .type-1{
-        text-align: center;
         font-size: 12px;
         float: none;
+        text-align: center;
+        margin: 0;
     }
+    .footer .copyright-text .type-2{
+        float: none;
+        margin-left: 50%;
+        margin-top: 10px;
+    }
+    
 }
 @media screen and (max-width: 350px) {
     .navbar > .container{
