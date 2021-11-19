@@ -277,6 +277,9 @@ body{
     padding-top: 60px;
     padding-bottom: 70px;
 }
+.about-spec .d-none{
+    display: none!important;
+}
 .about-spec .container{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -567,15 +570,25 @@ body{
     .navbar{
         padding:  0 0;
     }
-
+    .d-none{
+        display: flex!important;
+    }
+    .h-img-none{
+        display: none!important;
+    }
     .home-text h1{
         font-size: 36px;
+        text-align: center;
+        margin-top: 40px;
     }
     .home-text h2{
-        font-size: 20px;
+        font-size: 18px;
+        text-align: center;
     }
     .home-text p{
         line-height: 18px;
+        text-align: center;
+        padding: 0 10px;
     }
    .home-text span br{
        display: none;
@@ -587,7 +600,10 @@ body{
         width: auto;
         height: 300px;
     }
-    
+    .home .home-btn{
+        display: flex;
+        justify-content: center;
+    }
     .about-2-3 .text-title{
         font-size: 24px;
         line-height: 36px;
@@ -610,11 +626,17 @@ body{
     .about-info{
         margin-top: 40px;
     }
-
+    .s-img-none{
+        display: none!important;
+    }
+    .about-spec .d-none{
+        display: flex!important;
+    }
     .about-spec .section-title h2{
         font-size: 24px;
         line-height: 36px;
         text-align: center;
+        margin-top: 30px;
     }
     .about-spec-text p{
         font-size: 14px;
