@@ -740,6 +740,10 @@ body{
         font-size: 10px;
         padding: 16px 4px;
     }
+    .tips-btn .btn:hover{
+        font-size: 10px;
+        padding: 16px 4px;
+    }
     .tips{
         height: auto;
     }
