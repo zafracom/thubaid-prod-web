@@ -305,6 +305,11 @@ body{
     height: auto;
     margin-bottom: 100px;
 }
+.about-spec-text span{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
 .about-spec-img img{
     margin-top: 2px;
     max-width: 330px;
